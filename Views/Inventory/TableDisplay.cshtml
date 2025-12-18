@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<InventoryManagement.Models.Item>
+
+<h1>Inventory</h1>
+<table class=table>
+    <thead>
+    <th>ID</th>
+    <th>Item Name</th>
+    <th>Item Description</th>
+    <th>Item Price</th>
+    <th>Item Count</th>
+    <th>Total Price</th>
+    </thead>
+    @foreach(var item in Model){
+      <tr>
+        <td>@item.id</td>
+        <td>@item.itemName</td>
+        <td>@item.itemDesc</td>
+        <td>$ @item.itemVal</td>
+        <td>@item.itemCount</td>
+        <td>$ @(item.itemCount * item.itemVal)</td>
+        <td>
+          <form asp-action="Delete" asp-controller="Inventory" sytle="display: inline" method="post">
+            <input type="hidden" name="id" value=@item.id>
+            <button type="submit" class="btn btn-danger">Delete</button>
+          </form>
+          <form asp-action="Edit" asp-controller="Inventory" style="display: inline" method="post">
+            <input type="hidden" name="id" value=@item.id>
+            <button type="submit" class="btn btn-primary">Edit</button>
+          </form>
+        </td>
+      </tr>
+    
+    }
+</table>

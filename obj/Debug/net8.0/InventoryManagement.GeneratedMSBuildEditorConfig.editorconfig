@@ -30,6 +30,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/Romir/Projects/InventoryManagement/InventoryManagement/Views/Inventory/AddItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW52ZW50b3J5L0FkZEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/Romir/Projects/InventoryManagement/InventoryManagement/Views/Inventory/DisplayItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW52ZW50b3J5L0Rpc3BsYXlJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/Romir/Projects/InventoryManagement/InventoryManagement/Views/Inventory/Modify.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW52ZW50b3J5L01vZGlmeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/Romir/Projects/InventoryManagement/InventoryManagement/Views/Inventory/TableDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW52ZW50b3J5L1RhYmxlRGlzcGxheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/Romir/Projects/InventoryManagement/InventoryManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
